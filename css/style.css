@@ -166,6 +166,10 @@
         letter-spacing: 0.03em;
          color: #FFFFFF;
 }
+.address-list-nav:hover,
+.address-list-nav:focus {
+    color: #2196F3;
+}
 .address-list-link {
         font-family: 'Roboto', sans-serif;
         font-style: normal;
@@ -175,7 +179,10 @@
         letter-spacing: 0.03em;   
         color: rgba(255, 255, 255, 0.6); 
 }
-
+.address-list-link:hover,
+.address-list-link:focus {
+    color: #2196F3;
+}
 /* --- End footer --- */
 /* ---- Start portfolio--- */
 .menu-btn {
@@ -186,6 +193,7 @@
         line-height: 1.62;    
         letter-spacing: 0.03em;   
         color: #212121;
+        cursor: pointer;
         
 }
 .menu-btn:hover,
